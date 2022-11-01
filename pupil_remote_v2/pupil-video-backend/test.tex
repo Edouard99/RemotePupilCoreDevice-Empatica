@@ -1,0 +1,147 @@
+\documentclass[11pt]{article}
+
+    \usepackage[breakable]{tcolorbox}
+    \usepackage{parskip} % Stop auto-indenting (to mimic markdown behaviour)
+    \usepackage{caption}
+    \captionsetup[figure]{
+    position=below,
+    }
+    \usepackage{graphicx}
+    \usepackage{geometry}
+    \usepackage{float}
+    \usepackage[hyphens]{url}
+    \usepackage{amsmath}
+    
+    
+    \floatplacement{figure}{H}
+    \graphicspath{ {./} }
+    % Document parameters
+    % Document title
+    \title{Report\_P1}
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    \usepackage{hyperref}
+    \hypersetup{
+        colorlinks=true,
+        linkcolor=red,
+        filecolor=red,      
+        urlcolor=red,
+        citecolor=black,
+        pdftitle={Overleaf Example}
+        }
+    \urlstyle{same}
+    \usepackage{biblatex}
+
+    
+\addbibresource{export.bib} %Import the bibliography file
+
+\begin{document}
+    
+\begin{titlepage}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\vspace*{7cm}
+\textsc{\LARGE
+Optimization Project 
+} \\[1cm]
+\HRule \\[0.4cm]
+{ \huge \bfseries Milestone \\[0.15cm] }
+\HRule \\[1.5cm]
+CASTETS Edouard - A20496836
+\\[1cm]
+Date : April 17, 2022\\ [1cm]
+\end{titlepage}    
+    
+\section{Objective of the project}
+My objective is to use a deep learning model to predict the control law based on a MPC model, the advantage of this method is that it has a lower computation cost. Yet the issue of this problem is that the deep learning model won't give the ideal control law, to ensure guarantees on constraint and stability we will then use a Robust MPC method and validate it with a statistical method as it is explained in this scheme :
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{holo.jpg}
+    \includegraphics[width=0.45\textwidth]{holo2.jpg}
+    \caption{Prototype} 
+    \label{fig:img1}
+\end{figure}
+
+For this project I plan to firstly reproduce the results of the paper that I am studying, providing the code, because in most of paper in Machine and Deep Learning today, most of the method is not clearly explained and there is no access to the code, my aim would be to clarify the method and give access to a code which use robust MPC to solve a problem. I would like to start with the problem of the paper and maybe try to apply it on a problem that we solved in homeworks.
+
+\section{Theory}
+
+All the Theory can be found here \cite{} and here \cite{} :
+\newline
+As the theory is fully developed in the paper I will quickly summarized the step that I will follow without proving that these steps ensure guarantees, for further explanation read the paper.
+
+\newline
+We are trying to find the control law for the following system :
+
+
+\[\dot{x}=f_{c}(x,u)= \begin{bmatrix}
+    \frac{1-x_{1}}{\theta}-k*x_{1}*e^{-M/x_{2}} \\
+    \frac{x_{f}-x_{2}}{\theta}-k*x_{1}*e^{-M/x_{2}}-\alpha*u*(x_{2}-x_{c})
+\end{bmatrix} 
+\]
+We can discretize the problem with an Euler Approach:
+\[\dot{x}=\frac{x^{+}-x}{h}
+\]
+\[x^{+}=f(x,u)= \begin{bmatrix}
+    x_{1} + h*(\frac{1-x_{1}}{\theta}-k*x_{1}*e^{-M/x_{2}}) \\
+    x_{2} + h*(\frac{x_{f}-x_{2}}{\theta}-k*x_{1}*e^{-M/x_{2}}-\alpha*u*(x_{2}-x_{c}))
+\end{bmatrix} 
+\]
+with
+\[u \in [0;2]\]
+\[x \in [-0.2;0.2]\times[-0.2;0.2]\]
+\[Q=\begin{bmatrix}
+    1 & 0\\
+    0 & 1
+\end{bmatrix}\]
+\[R=10^{-4}\]
+Our goal is to complete RMPC with a prediction horizon of N, the goal function is:
+\[V(x(t)) &= \min_{u(.|t)}\sum_{k=0}^{N-1}l(x(k+t|t),u(k+t|t)) + V_{f}(x(N+t|t))\]
+with these constraints :
+
+\[ \begin{split} x(t|t] &= x(t) \\
+    x(k+t+1|t)= f(x(k+t|t),u(k+t|t   \\
+        \\
+        \\\end{split}\]
+
+
+
+\section{Empatica Client}
+This week I designed the Empatica client in order to receive the data from the Empatica wristband. Now we are able to connect to the server with a TCP connection and to receive the data.
+\newline
+I finally made a client for both Empatica and Pupil Core which is receiving the information. This part of the network is ready for the data collection. The client is writing the data received in a csv file with the timestamp.
+
+
+\section{Mount the Final Prototype }
+
+As you can see I mounted the final prototype this week with the piece I have printed, now the battery and the Raspberry are mounted with Velcro to the Hololens.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{holo.jpg}
+    \includegraphics[width=0.45\textwidth]{holo2.jpg}
+    \caption{Prototype} 
+    \label{fig:img1}
+\end{figure}
+
+
+\section{Summarize Data Collection Process}
+
+See the data collection doc.
+
+\newpage
+\section{Pupil Issue}
+\newline
+I figured out yesterday that the Pupil core device gave me weird values for pupil size when it was mounted on the Hololens. In fact the pupil core has 2 model : the 2d model and the 3d model. It appears that the 2d model is working really well (I was even able to calibrate for the eye gaze position really well. Yet the 3d model is having some issue to be well fitted, I contacted the team on discord which is trying to help me to solve the problem. For now as the 2d model is working I can access the diameter (in pixel) from 2d model and the eye gaze position of 2d model (not perfectly accurate but working OK), if I succeed to make the 3d model work, I will be able to use pupil diameter in mm.
+\newline
+Why is it an issue ? Because the size is measured in pixel and the conversion pixel to mm is related to the camera position ( which moves between 2 subjects )
+\newline
+Why it could not be an issue ? As I said in previous work everyone has a different pupil size so I wanted to compute a ratio of the actual pupil size divided by the mean of the pupil size during the baseline, so if the camera does not move between the baseline and the others tasks I will still be able to compute these ratios.
+
+
+
+\section{Conclusion}
+For next week I need to start to work on the paper first shot and I would like to fix the Pupil 3d model issue. Then I would like to finish to write and clean the code for data collection and I would like to start working on the 3d cube puzzle design if I have time.
+\medskip.
+\printbibliography %Prints bibliography
+\end{document}

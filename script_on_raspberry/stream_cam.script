@@ -1,0 +1,4 @@
+#!/bin/bash
+/usr/local/bin/mjpg_streamer -i "/usr/local/lib/mjpg-streamer/input_uvc.so -d /dev/video4 -f 30 -n -r 192x192" -o "/usr/local/lib/mjpg-streamer/output_http.so -p 8082 -w /usr/local/share/mjpg-streamer/www" &
+/usr/local/bin/mjpg_streamer -i "/usr/local/lib/mjpg-streamer/input_uvc.so -d /dev/video2 -f 30 -n -r 192x192" -o "/usr/local/lib/mjpg-streamer/output_http.so -p 8081 -w /usr/local/share/mjpg-streamer/www" &
+/usr/local/bin/mjpg_streamer -i "/usr/local/lib/mjpg-streamer/input_uvc.so -d /dev/video0 -f 30 -n -r 720x480" -o "/usr/local/lib/mjpg-streamer/output_http.so -p 8083 -w /usr/local/share/mjpg-streamer/www"

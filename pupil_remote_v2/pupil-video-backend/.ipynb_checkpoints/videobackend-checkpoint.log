@@ -1,0 +1,1368 @@
+2022-03-23 00:55:26,309 INFO Host:192.168.0.119, Port:50020
+2022-03-23 00:55:26,319 INFO Waiting for Pupil remote.
+2022-03-23 00:55:26,319 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 00:55:26,334 DEBUG PUB_PORT: 26485
+2022-03-23 00:55:26,335 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 00:55:26,340 DEBUG SUB_PORT: 26486
+2022-03-23 00:55:26,340 INFO Connection Successful.
+2022-03-23 00:55:26,705 DEBUG {'subject': 'start_plugin', 'target': 'world', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.world',), 'hwm': 1}}
+2022-03-23 00:55:26,714 INFO Will publish to device:world
+2022-03-23 00:55:26,714 INFO Using default camera source:0
+2022-03-23 00:55:26,715 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 00:55:26,715 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 00:55:26,715 DEBUG {b'subject': b'eye_process.should_start.1', b'eye_id': 1, b'args': {b'topics': [b'notify.eye_process.should_start.1'], b'hwm': 1}}
+2022-03-23 00:55:26,715 INFO Starting the stream for device:world.
+2022-03-23 00:55:26,719 DEBUG {b'subject': b'start_plugin', b'target': b'world', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.world'], b'hwm': 1}}
+2022-03-23 00:55:27,002 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 00:55:27,023 DEBUG {b'subject': b'eye_process.started', b'eye_id': 1, b'topic': b'notify.eye_process.started'}
+2022-03-23 00:55:27,055 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 00:55:27,055 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 00:55:27,055 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 00:55:27,058 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 00:55:27,058 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 00:55:27,058 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 00:55:28,504 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 00:56:23,571 INFO Exit due to keyboard interrupt
+2022-03-23 00:56:23,595 INFO Stopping the stream for device: world.
+2022-03-23 00:56:23,688 INFO Total Published frames: 1645, FPS:30.
+2022-03-23 00:56:42,374 INFO Host:192.168.0.119, Port:50020
+2022-03-23 00:56:42,376 INFO Waiting for Pupil remote.
+2022-03-23 00:56:42,377 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 00:56:42,397 DEBUG PUB_PORT: 26485
+2022-03-23 00:56:42,397 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 00:56:42,421 DEBUG SUB_PORT: 26486
+2022-03-23 00:56:42,421 INFO Connection Successful.
+2022-03-23 00:56:42,806 DEBUG {'subject': 'start_plugin', 'target': 'world', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.world',), 'hwm': 1}}
+2022-03-23 00:56:42,814 INFO Will publish to device:world
+2022-03-23 00:56:42,815 INFO Using default camera source:0
+2022-03-23 00:56:42,815 DEBUG {b'subject': b'start_plugin', b'target': b'world', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.world'], b'hwm': 1}}
+2022-03-23 00:56:42,815 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 00:56:42,816 INFO Starting the stream for device:world.
+2022-03-23 00:56:44,573 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 00:56:48,798 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'delay': 0, b'topic': b'notify.eye_process.should_start.0'}
+2022-03-23 00:56:49,057 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 00:56:49,070 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 00:56:49,071 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 00:56:49,071 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 00:56:49,771 DEBUG {b'subject': b'eye_process.should_stop.0', b'eye_id': 0, b'topic': b'notify.eye_process.should_stop.0'}
+2022-03-23 00:56:50,715 DEBUG {b'subject': b'eye_process.stopped', b'eye_id': 0, b'topic': b'notify.eye_process.stopped'}
+2022-03-23 00:56:52,102 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'delay': 0, b'topic': b'notify.eye_process.should_start.0'}
+2022-03-23 00:56:52,434 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 00:56:52,435 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 00:56:52,435 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 00:56:52,436 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 00:57:15,119 DEBUG {b'subject': b'eye_process.should_start.1', b'eye_id': 1, b'delay': 0, b'topic': b'notify.eye_process.should_start.1'}
+2022-03-23 00:57:15,394 DEBUG {b'subject': b'eye_process.started', b'eye_id': 1, b'topic': b'notify.eye_process.started'}
+2022-03-23 00:57:15,440 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 00:57:15,441 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 00:57:15,442 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 00:57:22,766 INFO Exit due to keyboard interrupt
+2022-03-23 00:57:22,790 INFO Stopping the stream for device: world.
+2022-03-23 00:57:22,881 INFO Total Published frames: 1141, FPS:30.
+2022-03-23 00:58:03,118 INFO Host:192.168.0.119, Port:50020
+2022-03-23 00:58:03,120 INFO Waiting for Pupil remote.
+2022-03-23 00:58:03,121 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 00:58:03,148 DEBUG PUB_PORT: 26485
+2022-03-23 00:58:03,148 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 00:58:03,156 DEBUG SUB_PORT: 26486
+2022-03-23 00:58:03,157 INFO Connection Successful.
+2022-03-23 00:58:03,519 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye0', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye0',), 'hwm': 1}}
+2022-03-23 00:58:03,525 INFO Will publish to device:eye0
+2022-03-23 00:58:03,525 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 00:58:03,526 DEBUG {b'subject': b'eye_process.should_start.1', b'eye_id': 1, b'args': {b'topics': [b'notify.eye_process.should_start.1'], b'hwm': 1}}
+2022-03-23 00:58:03,527 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye0', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye0'], b'hwm': 1}}
+2022-03-23 00:58:12,320 DEBUG {b'subject': b'eye_process.stopped', b'eye_id': 1, b'topic': b'notify.eye_process.stopped'}
+2022-03-23 00:58:16,147 INFO Exit due to keyboard interrupt
+2022-03-23 00:58:18,495 INFO Host:192.168.0.119, Port:50020
+2022-03-23 00:58:18,497 INFO Waiting for Pupil remote.
+2022-03-23 00:58:18,497 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 00:58:18,541 DEBUG PUB_PORT: 26485
+2022-03-23 00:58:18,541 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 00:58:18,546 DEBUG SUB_PORT: 26486
+2022-03-23 00:58:18,547 INFO Connection Successful.
+2022-03-23 00:58:18,905 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye0', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye0',), 'hwm': 1}}
+2022-03-23 00:58:18,917 INFO Will publish to device:eye0
+2022-03-23 00:58:18,918 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 00:58:18,918 DEBUG {b'subject': b'eye_process.should_start.1', b'eye_id': 1, b'args': {b'topics': [b'notify.eye_process.should_start.1'], b'hwm': 1}}
+2022-03-23 00:58:18,918 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye0', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye0'], b'hwm': 1}}
+2022-03-23 00:58:19,174 DEBUG {b'subject': b'eye_process.started', b'eye_id': 1, b'topic': b'notify.eye_process.started'}
+2022-03-23 00:58:19,223 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 00:58:19,223 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 00:58:19,223 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 00:58:27,002 INFO Exit due to keyboard interrupt
+2022-03-23 00:59:02,442 INFO Host:192.168.0.119, Port:50020
+2022-03-23 00:59:02,444 INFO Waiting for Pupil remote.
+2022-03-23 00:59:02,444 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 00:59:02,469 DEBUG PUB_PORT: 27290
+2022-03-23 00:59:02,469 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 00:59:02,474 DEBUG SUB_PORT: 27291
+2022-03-23 00:59:02,474 INFO Connection Successful.
+2022-03-23 00:59:02,752 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye0', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye0',), 'hwm': 1}}
+2022-03-23 00:59:02,761 INFO Will publish to device:eye0
+2022-03-23 00:59:02,761 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 00:59:02,761 DEBUG {b'subject': b'eye_process.should_start.1', b'eye_id': 1, b'args': {b'topics': [b'notify.eye_process.should_start.1'], b'hwm': 1}}
+2022-03-23 00:59:02,765 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye0', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye0'], b'hwm': 1}}
+2022-03-23 00:59:03,009 DEBUG {b'subject': b'eye_process.started', b'eye_id': 1, b'topic': b'notify.eye_process.started'}
+2022-03-23 00:59:03,017 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 00:59:03,018 INFO Using default camera source:0
+2022-03-23 00:59:03,018 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 00:59:03,018 INFO Starting the stream for device:eye0.
+2022-03-23 00:59:03,065 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 00:59:03,065 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 00:59:03,066 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 00:59:03,066 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 00:59:03,066 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 00:59:03,066 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 00:59:04,779 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 00:59:58,613 INFO Exit due to keyboard interrupt
+2022-03-23 00:59:58,615 INFO Stopping the stream for device: eye0.
+2022-03-23 00:59:58,708 INFO Total Published frames: 1607, FPS:30.
+2022-03-23 01:00:01,460 INFO Host:192.168.0.119, Port:50020
+2022-03-23 01:00:01,462 INFO Waiting for Pupil remote.
+2022-03-23 01:00:01,463 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 01:00:01,480 DEBUG PUB_PORT: 27290
+2022-03-23 01:00:01,480 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 01:00:01,483 DEBUG SUB_PORT: 27291
+2022-03-23 01:00:01,484 INFO Connection Successful.
+2022-03-23 01:00:01,758 DEBUG {'subject': 'start_plugin', 'target': 'world', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.world',), 'hwm': 1}}
+2022-03-23 01:00:01,764 INFO Will publish to device:world
+2022-03-23 01:00:01,764 INFO Using default camera source:0
+2022-03-23 01:00:01,765 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:00:01,765 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 01:00:01,765 DEBUG {b'subject': b'eye_process.should_start.1', b'eye_id': 1, b'args': {b'topics': [b'notify.eye_process.should_start.1'], b'hwm': 1}}
+2022-03-23 01:00:01,766 INFO Starting the stream for device:world.
+2022-03-23 01:00:01,766 DEBUG {b'subject': b'start_plugin', b'target': b'world', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.world'], b'hwm': 1}}
+2022-03-23 01:00:03,524 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 01:01:52,000 INFO Exit due to keyboard interrupt
+2022-03-23 01:01:52,032 INFO Stopping the stream for device: world.
+2022-03-23 01:01:52,126 INFO Total Published frames: 3238, FPS:30.
+2022-03-23 01:03:46,997 INFO Host:192.168.0.119, Port:50020
+2022-03-23 01:03:46,999 INFO Waiting for Pupil remote.
+2022-03-23 01:03:46,999 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 01:03:47,020 DEBUG PUB_PORT: 27290
+2022-03-23 01:03:47,020 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 01:03:47,025 DEBUG SUB_PORT: 27291
+2022-03-23 01:03:47,025 INFO Connection Successful.
+2022-03-23 01:03:47,330 DEBUG {'subject': 'start_plugin', 'target': 'world', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.world',), 'hwm': 1}}
+2022-03-23 01:03:47,337 INFO Will publish to device:world
+2022-03-23 01:03:47,338 INFO Using default camera source:0
+2022-03-23 01:03:47,339 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:03:47,339 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 01:03:47,339 DEBUG {b'subject': b'eye_process.should_start.1', b'eye_id': 1, b'args': {b'topics': [b'notify.eye_process.should_start.1'], b'hwm': 1}}
+2022-03-23 01:03:47,339 INFO Starting the stream for device:world.
+2022-03-23 01:03:47,340 DEBUG {b'subject': b'start_plugin', b'target': b'world', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.world'], b'hwm': 1}}
+2022-03-23 01:03:49,097 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 01:03:57,297 INFO Exit due to keyboard interrupt
+2022-03-23 01:03:57,310 INFO Stopping the stream for device: world.
+2022-03-23 01:03:57,401 INFO Total Published frames: 246, FPS:30.
+2022-03-23 01:05:57,402 INFO Host:192.168.0.119, Port:50020
+2022-03-23 01:05:57,404 INFO Waiting for Pupil remote.
+2022-03-23 01:05:57,405 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 01:05:57,425 DEBUG PUB_PORT: 27557
+2022-03-23 01:05:57,425 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 01:05:57,429 DEBUG SUB_PORT: 27558
+2022-03-23 01:05:57,429 INFO Connection Successful.
+2022-03-23 01:05:57,802 DEBUG {'subject': 'start_plugin', 'target': 'world', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.world',), 'hwm': 1}}
+2022-03-23 01:05:57,813 INFO Will publish to device:world
+2022-03-23 01:05:57,814 INFO Using default camera source:0
+2022-03-23 01:05:57,814 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:05:57,815 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 01:05:57,815 DEBUG {b'subject': b'eye_process.should_start.1', b'eye_id': 1, b'args': {b'topics': [b'notify.eye_process.should_start.1'], b'hwm': 1}}
+2022-03-23 01:05:57,815 INFO Starting the stream for device:world.
+2022-03-23 01:05:57,816 DEBUG {b'subject': b'start_plugin', b'target': b'world', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.world'], b'hwm': 1}}
+2022-03-23 01:05:59,573 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 01:06:08,614 INFO Exit due to keyboard interrupt
+2022-03-23 01:06:08,625 INFO Stopping the stream for device: world.
+2022-03-23 01:06:08,718 INFO Total Published frames: 271, FPS:30.
+2022-03-23 01:10:14,964 INFO Host:192.168.0.119, Port:50020
+2022-03-23 01:10:14,966 INFO Waiting for Pupil remote.
+2022-03-23 01:10:14,966 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 01:10:14,986 DEBUG PUB_PORT: 27557
+2022-03-23 01:10:14,986 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 01:10:15,002 DEBUG SUB_PORT: 27558
+2022-03-23 01:10:15,003 INFO Connection Successful.
+2022-03-23 01:10:15,318 DEBUG {'subject': 'start_plugin', 'target': 'world', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.world',), 'hwm': 1}}
+2022-03-23 01:10:15,324 INFO Will publish to device:world
+2022-03-23 01:10:15,325 INFO Using default camera source:0
+2022-03-23 01:10:15,325 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 01:10:15,325 INFO Starting the stream for device:world.
+2022-03-23 01:10:15,326 DEBUG {b'subject': b'start_plugin', b'target': b'world', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.world'], b'hwm': 1}}
+2022-03-23 01:10:17,085 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 01:10:27,663 INFO Exit due to keyboard interrupt
+2022-03-23 01:10:27,677 INFO Stopping the stream for device: world.
+2022-03-23 01:10:27,771 INFO Total Published frames: 317, FPS:30.
+2022-03-23 01:11:43,007 INFO Host:192.168.0.119, Port:50020
+2022-03-23 01:11:43,009 INFO Waiting for Pupil remote.
+2022-03-23 01:11:43,010 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 01:11:43,035 DEBUG PUB_PORT: 27701
+2022-03-23 01:11:43,036 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 01:11:43,042 DEBUG SUB_PORT: 27702
+2022-03-23 01:11:43,043 INFO Connection Successful.
+2022-03-23 01:11:43,393 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye1', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye1',), 'hwm': 1}}
+2022-03-23 01:11:43,398 INFO Will publish to device:eye1
+2022-03-23 01:11:43,402 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye1', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye1'], b'hwm': 1}}
+2022-03-23 01:11:43,402 INFO Using default camera source:0
+2022-03-23 01:11:43,403 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 01:11:43,403 INFO Starting the stream for device:eye1.
+2022-03-23 01:11:45,161 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 01:11:53,997 INFO Exit due to keyboard interrupt
+2022-03-23 01:11:54,010 INFO Stopping the stream for device: eye1.
+2022-03-23 01:11:54,102 INFO Total Published frames: 265, FPS:30.
+2022-03-23 01:12:20,306 INFO Host:192.168.0.119, Port:50020
+2022-03-23 01:12:20,308 INFO Waiting for Pupil remote.
+2022-03-23 01:12:20,308 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 01:12:20,328 DEBUG PUB_PORT: 27897
+2022-03-23 01:12:20,329 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 01:12:20,334 DEBUG SUB_PORT: 27898
+2022-03-23 01:12:20,334 INFO Connection Successful.
+2022-03-23 01:12:20,666 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye0', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye0',), 'hwm': 1}}
+2022-03-23 01:12:20,672 INFO Will publish to device:eye0
+2022-03-23 01:12:20,676 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye0', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye0'], b'hwm': 1}}
+2022-03-23 01:12:20,676 INFO Using default camera source:0
+2022-03-23 01:12:20,676 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 01:12:20,677 INFO Starting the stream for device:eye0.
+2022-03-23 01:12:22,437 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 01:18:09,838 INFO Exit due to keyboard interrupt
+2022-03-23 01:18:09,850 INFO Stopping the stream for device: eye0.
+2022-03-23 01:18:09,943 INFO Total Published frames: 10365, FPS:30.
+2022-03-23 01:20:26,902 INFO Host:192.168.0.119, Port:50020
+2022-03-23 01:20:26,904 INFO Waiting for Pupil remote.
+2022-03-23 01:20:26,905 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 01:20:26,930 DEBUG PUB_PORT: 27897
+2022-03-23 01:20:26,930 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 01:20:26,938 DEBUG SUB_PORT: 27898
+2022-03-23 01:20:26,938 INFO Connection Successful.
+2022-03-23 01:20:27,261 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye0', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye0',), 'hwm': 1}}
+2022-03-23 01:20:27,266 INFO Will publish to device:eye0
+2022-03-23 01:20:27,270 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye0', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye0'], b'hwm': 1}}
+2022-03-23 01:20:27,274 INFO Using default camera source:0
+2022-03-23 01:20:27,274 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 01:20:27,274 INFO Starting the stream for device:eye0.
+2022-03-23 01:20:27,276 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,282 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,292 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,302 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,316 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,323 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,347 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,358 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,366 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,375 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,380 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,401 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,416 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,434 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,447 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,464 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,476 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,494 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,506 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,524 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,541 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,554 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,562 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,571 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,583 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,594 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,615 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,626 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,647 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,663 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,674 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,689 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,701 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,712 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,734 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,749 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,761 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,779 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,800 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,815 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,829 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,843 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 01:20:27,858 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,869 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,874 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,889 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,896 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,905 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,910 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,919 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,936 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,948 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,969 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,983 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:27,999 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,004 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,019 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,025 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,035 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,050 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,066 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,080 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,095 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,110 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,126 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,141 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,156 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,163 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,173 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,178 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,183 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,196 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,208 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 01:20:28,214 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 01:20:28,228 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 01:20:28,245 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,259 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,268 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,274 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,289 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,294 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,302 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,310 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,321 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,334 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,339 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,355 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,364 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,370 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,380 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,396 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,403 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,410 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,436 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,441 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,457 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,475 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,480 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,487 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,501 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,508 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,519 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,524 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,534 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,539 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,547 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,564 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,580 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,592 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,610 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,619 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,625 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,632 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,643 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,656 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,670 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,685 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,701 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,716 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,731 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,735 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,751 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,759 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,767 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,782 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,789 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,800 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,815 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,829 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,837 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,852 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,868 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,884 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,897 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,912 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,929 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,943 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,959 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,977 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:28,990 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,004 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,021 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,026 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,033 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 01:20:29,043 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,057 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,067 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,087 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,096 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,113 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,123 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,127 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,132 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,144 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,158 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,169 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,189 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,194 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,203 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,224 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,245 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,256 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,272 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,287 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,303 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,317 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,333 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,347 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,363 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,377 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,396 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,410 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,426 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,440 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,455 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,464 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,469 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,486 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,495 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,502 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,510 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,527 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,543 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,555 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,570 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,585 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,606 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,614 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,622 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,636 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,643 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,663 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,678 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,692 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,704 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,720 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,741 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,750 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:29,766 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,323 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,449 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,454 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,470 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,485 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,491 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,501 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,522 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,531 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,537 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,552 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,559 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,567 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,582 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,599 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,610 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,617 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,630 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,648 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,665 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,677 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,693 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,709 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,728 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,740 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,755 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,771 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,785 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,795 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,821 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,831 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,845 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,866 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,879 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,892 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,899 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,909 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,916 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,922 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,929 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,939 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,946 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,962 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,981 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:30,999 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,011 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,031 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,042 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,061 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,073 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,087 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,098 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,103 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,115 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,131 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,146 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,160 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,178 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,194 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,206 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,213 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,221 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,241 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,251 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,266 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,274 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,288 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,316 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,328 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,347 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,356 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,367 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,382 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,400 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,415 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,432 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,446 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,466 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,482 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,492 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,506 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,519 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,529 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,538 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,554 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,569 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,585 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,598 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,617 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,626 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,649 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,662 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,671 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,681 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,695 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,710 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,725 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,740 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,754 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,769 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,786 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,800 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,815 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,826 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,846 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,860 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,875 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,893 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,900 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,921 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,936 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,959 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,966 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,982 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:31,996 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,015 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,026 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,047 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,065 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,081 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,096 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,111 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,126 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,158 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,173 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,187 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,202 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,219 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,233 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,248 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,263 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,279 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,294 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,308 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,329 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,340 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,354 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,368 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,385 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,400 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,414 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,424 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,446 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,461 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,475 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,490 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,503 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,520 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,537 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,550 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,568 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,581 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,594 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,612 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,622 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,642 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,662 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,670 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,681 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,690 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,699 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,709 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,719 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,734 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,756 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,775 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,796 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,816 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,836 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,847 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,856 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,877 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,886 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,897 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,917 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,937 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,947 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,958 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,978 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:32,998 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,006 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,018 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,029 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,038 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,050 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,060 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,080 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,090 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,101 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,122 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,136 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,156 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,168 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,182 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,191 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,199 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,208 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,213 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,228 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,241 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,246 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,259 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,274 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,289 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,304 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,321 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,334 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,349 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,372 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,381 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,395 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,408 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,416 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,424 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,437 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,452 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,459 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,468 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,483 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,499 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,513 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,528 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,547 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,560 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,573 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,590 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,604 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,619 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,634 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,645 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,654 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,670 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,681 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,693 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,702 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,709 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,721 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,736 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,746 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,752 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,767 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,783 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,794 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,814 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,826 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,830 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,838 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,845 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,851 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,861 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,879 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,888 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,895 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,901 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,922 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,938 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,954 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,971 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:33,996 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,008 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,025 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,045 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,071 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,098 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,108 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,114 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,122 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,136 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,143 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,152 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,159 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,169 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,183 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,194 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,214 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,234 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,248 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,263 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,269 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,280 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,294 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,315 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,326 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,342 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,356 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,373 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,389 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,403 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,415 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,436 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,456 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,467 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,481 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,496 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,517 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,527 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,541 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,558 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,594 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,604 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,615 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,630 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,648 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,658 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,667 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,686 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,703 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,717 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,735 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,744 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,759 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,779 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,788 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,798 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,816 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,824 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,840 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,855 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,872 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,887 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,900 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,918 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,932 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,948 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,962 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,977 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:34,993 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,007 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,023 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,037 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,049 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,057 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,091 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,103 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,113 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,128 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,144 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,154 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,169 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,183 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,205 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,216 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,235 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,249 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,266 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,275 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,296 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,325 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,336 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,356 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,369 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,389 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,403 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,419 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,435 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,447 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,454 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,463 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,479 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,491 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,507 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,524 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,539 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,554 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,567 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,581 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,602 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,611 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,627 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,641 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,656 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,672 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,687 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,706 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,717 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,732 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,745 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,764 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,774 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,784 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,794 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,810 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,824 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,840 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,856 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,871 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,880 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,904 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,914 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,926 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,938 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,945 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,962 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,968 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,980 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,986 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:35,996 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,009 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,015 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,021 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,040 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,054 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,061 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,071 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,078 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,087 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,092 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,108 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,122 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,138 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,153 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,160 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,168 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,183 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,199 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,213 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,228 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,242 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,249 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,260 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,268 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,274 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,282 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,288 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,296 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,305 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,320 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,335 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,351 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,357 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,366 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,372 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,380 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,395 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,412 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,432 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,442 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,459 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,465 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,478 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,485 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,495 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,519 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,525 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,535 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,546 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,554 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,574 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,587 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,592 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,603 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,616 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,632 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,639 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,648 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,663 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,669 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,678 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,692 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,710 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,723 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,739 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,754 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,769 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,782 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,797 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,816 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,836 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,846 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:36,862 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,082 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,095 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,112 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,124 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,139 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,155 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,179 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,211 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,236 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,248 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,267 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,284 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,303 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,318 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,339 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,352 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:20:37,364 INFO Exit due to keyboard interrupt
+2022-03-23 01:20:37,377 INFO Stopping the stream for device: eye0.
+2022-03-23 01:20:37,471 INFO Total Published frames: 250, FPS:30.
+2022-03-23 01:22:04,567 INFO Host:192.168.0.119, Port:50020
+2022-03-23 01:22:04,569 INFO Waiting for Pupil remote.
+2022-03-23 01:22:04,570 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 01:22:04,585 DEBUG PUB_PORT: 27897
+2022-03-23 01:22:04,586 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 01:22:04,605 DEBUG SUB_PORT: 27898
+2022-03-23 01:22:04,605 INFO Connection Successful.
+2022-03-23 01:22:04,945 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye0', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye0',), 'hwm': 1}}
+2022-03-23 01:22:04,951 INFO Will publish to device:eye0
+2022-03-23 01:22:04,956 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye0', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye0'], b'hwm': 1}}
+2022-03-23 01:22:04,956 INFO Using default camera source:0
+2022-03-23 01:22:04,956 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 01:22:04,957 INFO Starting the stream for device:eye0.
+2022-03-23 01:22:04,958 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:22:05,218 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 01:22:05,231 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 01:22:05,231 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 01:22:05,231 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 01:22:06,717 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 01:23:33,734 DEBUG {b'subject': b'eye_process.stopped', b'eye_id': 0, b'topic': b'notify.eye_process.stopped'}
+2022-03-23 01:23:38,795 INFO Exit due to keyboard interrupt
+2022-03-23 01:23:38,801 INFO Stopping the stream for device: eye0.
+2022-03-23 01:23:38,895 INFO Total Published frames: 2748, FPS:30.
+2022-03-23 01:23:41,561 INFO Host:192.168.0.119, Port:50020
+2022-03-23 01:23:41,563 INFO Waiting for Pupil remote.
+2022-03-23 01:23:41,564 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 01:23:41,584 DEBUG PUB_PORT: 27897
+2022-03-23 01:23:41,585 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 01:23:41,590 DEBUG SUB_PORT: 27898
+2022-03-23 01:23:41,591 INFO Connection Successful.
+2022-03-23 01:23:41,938 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye0', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye0',), 'hwm': 1}}
+2022-03-23 01:23:41,943 INFO Will publish to device:eye0
+2022-03-23 01:23:41,948 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye0', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye0'], b'hwm': 1}}
+2022-03-23 01:23:41,948 INFO Using default camera source:0
+2022-03-23 01:23:41,949 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 01:23:41,949 INFO Starting the stream for device:eye0.
+2022-03-23 01:23:41,951 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:23:42,218 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 01:23:42,235 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 01:23:42,235 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 01:23:42,236 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 01:23:43,709 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 01:24:16,282 INFO Exit due to keyboard interrupt
+2022-03-23 01:24:16,289 INFO Stopping the stream for device: eye0.
+2022-03-23 01:24:16,383 INFO Total Published frames: 973, FPS:30.
+2022-03-23 01:25:04,679 INFO Host:192.168.0.119, Port:50020
+2022-03-23 01:25:04,681 INFO Waiting for Pupil remote.
+2022-03-23 01:25:04,681 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 01:25:04,699 DEBUG PUB_PORT: 27897
+2022-03-23 01:25:04,700 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 01:25:04,704 DEBUG SUB_PORT: 27898
+2022-03-23 01:25:04,704 INFO Connection Successful.
+2022-03-23 01:25:04,965 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye0', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye0',), 'hwm': 1}}
+2022-03-23 01:25:04,970 INFO Will publish to device:eye0
+2022-03-23 01:25:04,975 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye0', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye0'], b'hwm': 1}}
+2022-03-23 01:25:04,976 INFO Using default camera source:0
+2022-03-23 01:25:04,976 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 01:25:04,976 INFO Starting the stream for device:eye0.
+2022-03-23 01:25:04,978 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:25:06,739 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 01:25:50,550 INFO Exit due to keyboard interrupt
+2022-03-23 01:25:50,581 INFO Stopping the stream for device: eye0.
+2022-03-23 01:25:50,674 INFO Total Published frames: 1309, FPS:30.
+2022-03-23 01:25:57,490 INFO Host:192.168.0.119, Port:50020
+2022-03-23 01:25:57,492 INFO Waiting for Pupil remote.
+2022-03-23 01:25:57,493 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 01:25:57,510 DEBUG PUB_PORT: 27897
+2022-03-23 01:25:57,511 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 01:25:57,516 DEBUG SUB_PORT: 27898
+2022-03-23 01:25:57,516 INFO Connection Successful.
+2022-03-23 01:25:57,893 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye0', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye0',), 'hwm': 1}}
+2022-03-23 01:25:57,898 INFO Will publish to device:eye0
+2022-03-23 01:25:57,908 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye0', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye0'], b'hwm': 1}}
+2022-03-23 01:25:57,909 INFO Using default camera source:0
+2022-03-23 01:25:57,909 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 01:25:57,909 INFO Starting the stream for device:eye0.
+2022-03-23 01:25:57,910 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:25:58,162 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 01:25:58,188 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 01:25:58,188 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 01:25:58,188 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 01:25:59,669 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 01:26:12,089 DEBUG {b'subject': b'eye_process.stopped', b'eye_id': 0, b'topic': b'notify.eye_process.stopped'}
+2022-03-23 01:26:15,055 INFO Exit due to keyboard interrupt
+2022-03-23 01:26:15,086 INFO Stopping the stream for device: eye0.
+2022-03-23 01:26:15,181 INFO Total Published frames: 461, FPS:30.
+2022-03-23 01:26:18,387 INFO Host:192.168.0.119, Port:50020
+2022-03-23 01:26:18,389 INFO Waiting for Pupil remote.
+2022-03-23 01:26:18,390 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 01:26:18,411 DEBUG PUB_PORT: 27897
+2022-03-23 01:26:18,412 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 01:26:18,418 DEBUG SUB_PORT: 27898
+2022-03-23 01:26:18,418 INFO Connection Successful.
+2022-03-23 01:26:18,723 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye0', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye0',), 'hwm': 1}}
+2022-03-23 01:26:18,727 INFO Will publish to device:eye0
+2022-03-23 01:26:18,732 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye0', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye0'], b'hwm': 1}}
+2022-03-23 01:26:18,733 INFO Using default camera source:0
+2022-03-23 01:26:18,733 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:26:18,734 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 01:26:18,734 INFO Starting the stream for device:eye0.
+2022-03-23 01:26:18,998 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 01:26:19,004 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 01:26:19,004 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 01:26:19,004 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 01:26:20,494 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 01:34:03,143 INFO Exit due to keyboard interrupt
+2022-03-23 01:34:03,148 INFO Stopping the stream for device: eye0.
+2022-03-23 01:34:03,240 INFO Total Published frames: 13803, FPS:30.
+2022-03-23 01:35:09,017 INFO Host:192.168.0.119, Port:50020
+2022-03-23 01:35:09,019 INFO Waiting for Pupil remote.
+2022-03-23 01:35:09,019 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 01:35:09,037 DEBUG PUB_PORT: 27897
+2022-03-23 01:35:09,037 DEBUG Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 01:35:09,043 DEBUG SUB_PORT: 27898
+2022-03-23 01:35:09,043 INFO Connection Successful.
+2022-03-23 01:35:09,336 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye0', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye0',), 'hwm': 1}}
+2022-03-23 01:35:09,340 INFO Will publish to device:eye0
+2022-03-23 01:35:09,345 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye0', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye0'], b'hwm': 1}}
+2022-03-23 01:35:09,345 INFO Using default camera source:0
+2022-03-23 01:35:09,346 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 01:35:09,346 INFO Starting the stream for device:eye0.
+2022-03-23 01:35:09,348 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 01:35:09,599 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 01:35:09,602 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 01:35:09,602 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 01:35:09,602 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 01:35:11,105 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        2022-03-23 10:58:24,938 INFO Host:192.168.43.208, Port:50020
+2022-03-23 10:58:24,949 INFO Waiting for Pupil remote.
+2022-03-23 10:58:24,949 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 10:59:46,639 INFO Host:192.168.43.213, Port:50020
+2022-03-23 10:59:46,643 INFO Waiting for Pupil remote.
+2022-03-23 10:59:46,643 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 11:03:02,188 INFO Host:192.168.43.213, Port:50020
+2022-03-23 11:03:02,190 INFO Waiting for Pupil remote.
+2022-03-23 11:03:02,191 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 11:03:54,285 INFO Host:192.168.43.213, Port:50020
+2022-03-23 11:03:54,288 INFO Waiting for Pupil remote.
+2022-03-23 11:03:54,288 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 11:04:54,546 INFO Host:192.168.43.213, Port:50020
+2022-03-23 11:04:54,548 INFO Waiting for Pupil remote.
+2022-03-23 11:04:54,548 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 11:06:16,772 INFO Host:192.168.43.213, Port:50020
+2022-03-23 11:06:16,775 INFO Waiting for Pupil remote.
+2022-03-23 11:06:16,775 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 11:07:41,655 INFO Host:192.168.43.213, Port:50020
+2022-03-23 11:07:41,657 INFO Waiting for Pupil remote.
+2022-03-23 11:07:41,658 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 11:09:03,188 INFO Host:192.168.43.213, Port:50020
+2022-03-23 11:09:03,190 INFO Waiting for Pupil remote.
+2022-03-23 11:09:03,191 DEBUG Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 11:12:55,109 INFO Host:192.168.43.213, Port:50020
+2022-03-23 11:12:55,112 INFO Waiting for Pupil remote.
+2022-03-23 11:12:55,112 INFO Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 14:15:40,939 INFO Host:192.168.0.119, Port:50020
+2022-03-23 14:15:40,950 INFO Waiting for Pupil remote.
+2022-03-23 14:15:40,951 INFO Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 14:15:41,085 DEBUG PUB_PORT: 1542
+2022-03-23 14:15:41,086 INFO Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 14:15:41,089 DEBUG SUB_PORT: 1543
+2022-03-23 14:15:41,089 INFO Connection Successful.
+2022-03-23 14:15:41,341 DEBUG {'subject': 'start_plugin', 'target': 'world', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.world',), 'hwm': 1}}
+2022-03-23 14:15:41,345 INFO Will publish to device:world
+2022-03-23 14:15:41,346 INFO Using default camera source:0
+2022-03-23 14:15:41,346 DEBUG {b'subject': b'start_plugin', b'target': b'world', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.world'], b'hwm': 1}}
+2022-03-23 14:15:41,347 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 14:15:41,347 INFO Starting the stream for device:world.
+2022-03-23 14:15:43,138 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 14:16:00,939 INFO Exit due to keyboard interrupt
+2022-03-23 14:16:00,949 INFO Stopping the stream for device: world.
+2022-03-23 14:16:01,040 INFO Total Published frames: 533, FPS:30.
+2022-03-23 14:19:26,324 INFO Host:192.168.0.119, Port:50020
+2022-03-23 14:19:26,327 INFO Waiting for Pupil remote.
+2022-03-23 14:19:26,327 INFO Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 14:19:26,345 DEBUG PUB_PORT: 1542
+2022-03-23 14:19:26,345 INFO Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 14:19:26,349 DEBUG SUB_PORT: 1543
+2022-03-23 14:19:26,349 INFO Connection Successful.
+2022-03-23 14:19:26,616 DEBUG {'subject': 'start_plugin', 'target': 'world', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.world',), 'hwm': 1}}
+2022-03-23 14:19:26,621 INFO Will publish to device:world
+2022-03-23 14:19:26,622 INFO Using default camera source:0
+2022-03-23 14:19:26,623 DEBUG {b'subject': b'start_plugin', b'target': b'world', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.world'], b'hwm': 1}}
+2022-03-23 14:19:26,623 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 14:19:26,623 INFO Starting the stream for device:world.
+2022-03-23 14:19:28,380 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 14:19:52,631 INFO Exit due to keyboard interrupt
+2022-03-23 14:19:52,646 INFO Stopping the stream for device: world.
+2022-03-23 14:19:52,741 INFO Total Published frames: 725, FPS:30.
+2022-03-23 14:20:08,052 INFO Host:192.168.0.119, Port:50020
+2022-03-23 14:20:08,055 INFO Waiting for Pupil remote.
+2022-03-23 14:20:08,055 INFO Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 14:20:08,073 DEBUG PUB_PORT: 1542
+2022-03-23 14:20:08,073 INFO Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 14:20:08,079 DEBUG SUB_PORT: 1543
+2022-03-23 14:20:08,079 INFO Connection Successful.
+2022-03-23 14:20:08,368 DEBUG {'subject': 'start_plugin', 'target': 'world', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.world',), 'hwm': 1}}
+2022-03-23 14:20:08,373 INFO Will publish to device:world
+2022-03-23 14:20:08,374 INFO Using default camera source:0
+2022-03-23 14:20:08,374 DEBUG {b'subject': b'start_plugin', b'target': b'world', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.world'], b'hwm': 1}}
+2022-03-23 14:20:08,375 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 14:20:08,375 INFO Starting the stream for device:world.
+2022-03-23 14:20:10,140 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 14:20:34,341 INFO Host:192.168.0.119, Port:50020
+2022-03-23 14:20:34,344 INFO Waiting for Pupil remote.
+2022-03-23 14:20:34,345 INFO Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 14:20:34,417 DEBUG PUB_PORT: 1542
+2022-03-23 14:20:34,417 INFO Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 14:20:34,431 DEBUG SUB_PORT: 1543
+2022-03-23 14:20:34,432 INFO Connection Successful.
+2022-03-23 14:20:35,435 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye0', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye0',), 'hwm': 1}}
+2022-03-23 14:20:35,441 INFO Will publish to device:eye0
+2022-03-23 14:20:35,442 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye0', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye0'], b'hwm': 1}}
+2022-03-23 14:20:35,455 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 14:20:35,455 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye0', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye0'], b'hwm': 1}}
+2022-03-23 14:20:35,456 INFO Using default camera source:0
+2022-03-23 14:20:35,456 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 14:20:35,457 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 14:20:35,457 INFO Starting the stream for device:eye0.
+2022-03-23 14:20:35,718 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 14:20:35,723 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 14:20:35,742 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:20:35,743 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 14:20:35,743 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:20:35,743 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:20:35,744 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 14:20:35,744 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:20:37,031 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 14:26:54,999 INFO Host:192.168.0.119, Port:50020
+2022-03-23 14:26:55,002 INFO Waiting for Pupil remote.
+2022-03-23 14:26:55,002 INFO Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 14:26:55,123 DEBUG PUB_PORT: 1542
+2022-03-23 14:26:55,124 INFO Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 14:26:55,163 DEBUG SUB_PORT: 1543
+2022-03-23 14:26:55,164 INFO Connection Successful.
+2022-03-23 14:26:57,089 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye1', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye1',), 'hwm': 1}}
+2022-03-23 14:26:57,122 INFO Will publish to device:eye1
+2022-03-23 14:26:57,123 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye1', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye1'], b'hwm': 1}}
+2022-03-23 14:26:57,123 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye1', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye1'], b'hwm': 1}}
+2022-03-23 14:26:57,156 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye1', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye1'], b'hwm': 1}}
+2022-03-23 14:26:57,157 INFO Using default camera source:0
+2022-03-23 14:26:57,157 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 14:26:57,158 INFO Starting the stream for device:eye1.
+2022-03-23 14:26:57,160 DEBUG {b'subject': b'eye_process.should_start.1', b'eye_id': 1, b'args': {b'topics': [b'notify.eye_process.should_start.1'], b'hwm': 1}}
+2022-03-23 14:26:57,160 DEBUG {b'subject': b'eye_process.should_start.1', b'eye_id': 1, b'args': {b'topics': [b'notify.eye_process.should_start.1'], b'hwm': 1}}
+2022-03-23 14:26:57,165 DEBUG {b'subject': b'eye_process.should_start.1', b'eye_id': 1, b'args': {b'topics': [b'notify.eye_process.should_start.1'], b'hwm': 1}}
+2022-03-23 14:26:57,428 DEBUG {b'subject': b'eye_process.started', b'eye_id': 1, b'topic': b'notify.eye_process.started'}
+2022-03-23 14:26:57,428 DEBUG {b'subject': b'eye_process.started', b'eye_id': 1, b'topic': b'notify.eye_process.started'}
+2022-03-23 14:26:57,428 DEBUG {b'subject': b'eye_process.started', b'eye_id': 1, b'topic': b'notify.eye_process.started'}
+2022-03-23 14:26:57,456 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:26:57,456 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:26:57,457 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 14:26:57,457 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 14:26:57,457 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:26:57,457 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:26:57,458 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:26:57,458 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 14:26:57,458 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:26:58,736 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 14:32:36,471 DEBUG {b'subject': b'frame_publishing.started', b'format': b'bgr', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:32:36,471 DEBUG {b'subject': b'frame_publishing.started', b'format': b'bgr', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:32:36,471 DEBUG {b'subject': b'frame_publishing.started', b'format': b'bgr', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:32:39,928 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:32:39,928 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:32:39,929 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:33:19,760 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': False, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:33:19,760 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': False, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:33:19,760 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': False, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:33:28,764 DEBUG {b'subject': b'eye_process.should_stop.0', b'eye_id': 0, b'topic': b'notify.eye_process.should_stop.0'}
+2022-03-23 14:33:28,764 DEBUG {b'subject': b'eye_process.should_stop.0', b'eye_id': 0, b'topic': b'notify.eye_process.should_stop.0'}
+2022-03-23 14:33:28,764 DEBUG {b'subject': b'eye_process.should_stop.0', b'eye_id': 0, b'topic': b'notify.eye_process.should_stop.0'}
+2022-03-23 14:33:28,764 DEBUG {b'subject': b'groups.member_left', b'name': b'74739e', b'uuid_bytes': b'ts\x9eTV\xd0J\xe2\x95\x8d8Oh\x13\xf2v', b'topic': b'notify.groups.member_left'}
+2022-03-23 14:33:28,765 DEBUG {b'subject': b'groups.member_left', b'name': b'74739e', b'uuid_bytes': b'ts\x9eTV\xd0J\xe2\x95\x8d8Oh\x13\xf2v', b'topic': b'notify.groups.member_left'}
+2022-03-23 14:33:28,765 DEBUG {b'subject': b'groups.member_left', b'name': b'b27cfd', b'uuid_bytes': b'\xb2|\xfdH\x10fHn\xafG\xa8y\x94\xbbz\xed', b'topic': b'notify.groups.member_left'}
+2022-03-23 14:33:28,765 DEBUG {b'subject': b'groups.member_left', b'name': b'b27cfd', b'uuid_bytes': b'\xb2|\xfdH\x10fHn\xafG\xa8y\x94\xbbz\xed', b'topic': b'notify.groups.member_left'}
+2022-03-23 14:33:28,765 DEBUG {b'subject': b'groups.member_left', b'name': b'74739e', b'uuid_bytes': b'ts\x9eTV\xd0J\xe2\x95\x8d8Oh\x13\xf2v', b'topic': b'notify.groups.member_left'}
+2022-03-23 14:33:28,765 DEBUG {b'subject': b'eye_process.stopped', b'eye_id': 0, b'topic': b'notify.eye_process.stopped'}
+2022-03-23 14:33:28,765 DEBUG {b'subject': b'eye_process.stopped', b'eye_id': 0, b'topic': b'notify.eye_process.stopped'}
+2022-03-23 14:33:28,765 DEBUG {b'subject': b'groups.member_left', b'name': b'b27cfd', b'uuid_bytes': b'\xb2|\xfdH\x10fHn\xafG\xa8y\x94\xbbz\xed', b'topic': b'notify.groups.member_left'}
+2022-03-23 14:33:28,766 DEBUG {b'subject': b'eye_process.stopped', b'eye_id': 0, b'topic': b'notify.eye_process.stopped'}
+2022-03-23 14:33:29,316 DEBUG {b'subject': b'eye_process.should_stop.1', b'eye_id': 1, b'topic': b'notify.eye_process.should_stop.1'}
+2022-03-23 14:33:29,316 DEBUG {b'subject': b'eye_process.should_stop.1', b'eye_id': 1, b'topic': b'notify.eye_process.should_stop.1'}
+2022-03-23 14:33:29,316 DEBUG {b'subject': b'eye_process.should_stop.1', b'eye_id': 1, b'topic': b'notify.eye_process.should_stop.1'}
+2022-03-23 14:33:29,316 DEBUG {b'subject': b'groups.member_left', b'name': b'b64154', b'uuid_bytes': b'\xb6AT\x93\xb2\xafI\x94\x8b&\xb1of6$\x8b', b'topic': b'notify.groups.member_left'}
+2022-03-23 14:33:29,316 DEBUG {b'subject': b'groups.member_left', b'name': b'b64154', b'uuid_bytes': b'\xb6AT\x93\xb2\xafI\x94\x8b&\xb1of6$\x8b', b'topic': b'notify.groups.member_left'}
+2022-03-23 14:33:29,317 DEBUG {b'subject': b'groups.member_left', b'name': b'b64154', b'uuid_bytes': b'\xb6AT\x93\xb2\xafI\x94\x8b&\xb1of6$\x8b', b'topic': b'notify.groups.member_left'}
+2022-03-23 14:33:29,322 DEBUG {b'subject': b'groups.member_left', b'name': b'f3a02c', b'uuid_bytes': b'\xf3\xa0,JX\xaaM\x18\x838JpDg\xed%', b'topic': b'notify.groups.member_left'}
+2022-03-23 14:33:29,323 DEBUG {b'subject': b'groups.member_left', b'name': b'f3a02c', b'uuid_bytes': b'\xf3\xa0,JX\xaaM\x18\x838JpDg\xed%', b'topic': b'notify.groups.member_left'}
+2022-03-23 14:33:29,323 DEBUG {b'subject': b'groups.member_left', b'name': b'f3a02c', b'uuid_bytes': b'\xf3\xa0,JX\xaaM\x18\x838JpDg\xed%', b'topic': b'notify.groups.member_left'}
+2022-03-23 14:33:29,328 DEBUG {b'subject': b'eye_process.stopped', b'eye_id': 1, b'topic': b'notify.eye_process.stopped'}
+2022-03-23 14:33:29,329 DEBUG {b'subject': b'eye_process.stopped', b'eye_id': 1, b'topic': b'notify.eye_process.stopped'}
+2022-03-23 14:33:29,329 DEBUG {b'subject': b'eye_process.stopped', b'eye_id': 1, b'topic': b'notify.eye_process.stopped'}
+2022-03-23 14:33:30,256 DEBUG {b'subject': b'eye_process.should_start.1', b'eye_id': 1, b'delay': 0, b'topic': b'notify.eye_process.should_start.1'}
+2022-03-23 14:33:30,256 DEBUG {b'subject': b'eye_process.should_start.1', b'eye_id': 1, b'delay': 0, b'topic': b'notify.eye_process.should_start.1'}
+2022-03-23 14:33:30,256 DEBUG {b'subject': b'eye_process.should_start.1', b'eye_id': 1, b'delay': 0, b'topic': b'notify.eye_process.should_start.1'}
+2022-03-23 14:33:30,432 DEBUG {b'subject': b'eye_process.started', b'eye_id': 1, b'topic': b'notify.eye_process.started'}
+2022-03-23 14:33:30,432 DEBUG {b'subject': b'eye_process.started', b'eye_id': 1, b'topic': b'notify.eye_process.started'}
+2022-03-23 14:33:30,432 DEBUG {b'subject': b'eye_process.started', b'eye_id': 1, b'topic': b'notify.eye_process.started'}
+2022-03-23 14:33:30,462 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': False, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:33:30,462 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 14:33:30,464 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:33:30,466 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': False, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:33:30,466 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 14:33:30,467 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:33:30,466 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': False, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:33:30,467 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 14:33:30,468 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:33:30,894 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'delay': 0, b'topic': b'notify.eye_process.should_start.0'}
+2022-03-23 14:33:30,894 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'delay': 0, b'topic': b'notify.eye_process.should_start.0'}
+2022-03-23 14:33:30,894 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'delay': 0, b'topic': b'notify.eye_process.should_start.0'}
+2022-03-23 14:33:31,224 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 14:33:31,224 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 14:33:31,225 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': False, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:33:31,224 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 14:33:31,226 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 14:33:31,226 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': False, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:33:31,226 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:33:31,226 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': False, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:33:31,226 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 14:33:31,227 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:33:31,227 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 14:33:31,228 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:34:28,157 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:34:28,157 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:34:28,158 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:38:51,539 DEBUG {b'subject': b'start_plugin', b'name': b'ScreenMarkerChoreographyPlugin', b'args': {b'selected_gazer_class_name': b'Gazer3D'}, b'topic': b'notify.start_plugin'}
+2022-03-23 14:38:51,539 DEBUG {b'subject': b'start_plugin', b'name': b'ScreenMarkerChoreographyPlugin', b'args': {b'selected_gazer_class_name': b'Gazer3D'}, b'topic': b'notify.start_plugin'}
+2022-03-23 14:38:51,540 DEBUG {b'subject': b'start_plugin', b'name': b'ScreenMarkerChoreographyPlugin', b'args': {b'selected_gazer_class_name': b'Gazer3D'}, b'topic': b'notify.start_plugin'}
+2022-03-23 14:39:41,537 DEBUG {b'subject': b'recording.should_start', b'session_name': b'2022_03_23', b'topic': b'notify.recording.should_start'}
+2022-03-23 14:39:41,537 DEBUG {b'subject': b'recording.should_start', b'session_name': b'2022_03_23', b'topic': b'notify.recording.should_start'}
+2022-03-23 14:39:41,537 DEBUG {b'subject': b'recording.should_start', b'session_name': b'2022_03_23', b'topic': b'notify.recording.should_start'}
+2022-03-23 14:39:41,614 DEBUG {b'subject': b'recording.started', b'rec_path': b'C:\\Users\\Edouard\\recordings\\2022_03_23\\000/', b'session_name': b'2022_03_23', b'record_eye': True, b'compression': True, b'start_time_synced': 175265.973081, b'topic': b'notify.recording.started'}
+2022-03-23 14:39:41,614 DEBUG {b'subject': b'recording.started', b'rec_path': b'C:\\Users\\Edouard\\recordings\\2022_03_23\\000/', b'session_name': b'2022_03_23', b'record_eye': True, b'compression': True, b'start_time_synced': 175265.973081, b'topic': b'notify.recording.started'}
+2022-03-23 14:39:41,614 DEBUG {b'subject': b'recording.started', b'rec_path': b'C:\\Users\\Edouard\\recordings\\2022_03_23\\000/', b'session_name': b'2022_03_23', b'record_eye': True, b'compression': True, b'start_time_synced': 175265.973081, b'topic': b'notify.recording.started'}
+2022-03-23 14:39:55,706 DEBUG {b'subject': b'recording.should_stop', b'topic': b'notify.recording.should_stop'}
+2022-03-23 14:39:55,706 DEBUG {b'subject': b'recording.should_stop', b'topic': b'notify.recording.should_stop'}
+2022-03-23 14:39:55,706 DEBUG {b'subject': b'recording.should_stop', b'topic': b'notify.recording.should_stop'}
+2022-03-23 14:39:55,715 DEBUG {b'subject': b'recording.stopped', b'rec_path': b'C:\\Users\\Edouard\\recordings\\2022_03_23\\000/', b'topic': b'notify.recording.stopped'}
+2022-03-23 14:39:55,715 DEBUG {b'subject': b'recording.stopped', b'rec_path': b'C:\\Users\\Edouard\\recordings\\2022_03_23\\000/', b'topic': b'notify.recording.stopped'}
+2022-03-23 14:39:55,715 DEBUG {b'subject': b'recording.stopped', b'rec_path': b'C:\\Users\\Edouard\\recordings\\2022_03_23\\000/', b'topic': b'notify.recording.stopped'}
+2022-03-23 14:40:11,767 INFO Exit due to keyboard interrupt
+2022-03-23 14:40:11,781 INFO Stopping the stream for device: eye1.
+2022-03-23 14:40:11,875 INFO Total Published frames: 23656, FPS:30.
+2022-03-23 14:40:19,842 INFO Exit due to keyboard interrupt
+2022-03-23 14:40:19,870 INFO Stopping the stream for device: eye0.
+2022-03-23 14:40:19,961 INFO Total Published frames: 35287, FPS:30.
+2022-03-23 14:40:29,592 INFO Exit due to keyboard interrupt
+2022-03-23 14:40:29,614 INFO Stopping the stream for device: world.
+2022-03-23 14:40:29,705 INFO Total Published frames: 36380, FPS:30.
+2022-03-23 14:48:06,500 INFO Host:192.168.0.119, Port:50020
+2022-03-23 14:48:06,502 INFO Waiting for Pupil remote.
+2022-03-23 14:48:06,503 INFO Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 14:48:06,523 DEBUG PUB_PORT: 1302
+2022-03-23 14:48:06,524 INFO Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 14:48:06,531 DEBUG SUB_PORT: 1303
+2022-03-23 14:48:06,532 INFO Connection Successful.
+2022-03-23 14:48:06,814 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye0', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye0',), 'hwm': 1}}
+2022-03-23 14:48:06,818 INFO Will publish to device:eye0
+2022-03-23 14:48:06,825 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye0', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye0'], b'hwm': 1}}
+2022-03-23 14:48:06,826 INFO Using default camera source:0
+2022-03-23 14:48:06,826 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 14:48:06,826 INFO Starting the stream for device:eye0.
+2022-03-23 14:48:06,828 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 14:48:07,062 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 14:48:07,086 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:48:07,086 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 14:48:07,087 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:48:08,587 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 14:49:23,629 DEBUG {b'subject': b'eye_process.stopped', b'eye_id': 0, b'topic': b'notify.eye_process.stopped'}
+2022-03-23 14:49:26,126 INFO Exit due to keyboard interrupt
+2022-03-23 14:49:26,154 INFO Stopping the stream for device: eye0.
+2022-03-23 14:49:26,247 INFO Total Published frames: 2315, FPS:30.
+2022-03-23 14:49:35,949 INFO Host:192.168.0.119, Port:50020
+2022-03-23 14:49:35,952 INFO Waiting for Pupil remote.
+2022-03-23 14:49:35,953 INFO Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 14:49:35,982 DEBUG PUB_PORT: 1474
+2022-03-23 14:49:35,983 INFO Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 14:49:35,987 DEBUG SUB_PORT: 1475
+2022-03-23 14:49:35,988 INFO Connection Successful.
+2022-03-23 14:49:36,305 DEBUG {'subject': 'start_eye_plugin', 'target': 'eye0', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.eye0',), 'hwm': 1}}
+2022-03-23 14:49:36,312 INFO Will publish to device:eye0
+2022-03-23 14:49:36,317 DEBUG {b'subject': b'start_eye_plugin', b'target': b'eye0', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.eye0'], b'hwm': 1}}
+2022-03-23 14:49:36,318 INFO Using default camera source:0
+2022-03-23 14:49:36,318 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 14:49:36,318 INFO Starting the stream for device:eye0.
+2022-03-23 14:49:36,320 DEBUG {b'subject': b'eye_process.should_start.0', b'eye_id': 0, b'args': {b'topics': [b'notify.eye_process.should_start.0'], b'hwm': 1}}
+2022-03-23 14:49:36,567 DEBUG {b'subject': b'eye_process.started', b'eye_id': 0, b'topic': b'notify.eye_process.started'}
+2022-03-23 14:49:36,583 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 14:49:36,583 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 14:49:36,583 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 14:49:38,075 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 14:51:13,250 INFO Host:192.168.0.119, Port:50020
+2022-03-23 14:51:13,253 INFO Waiting for Pupil remote.
+2022-03-23 14:51:13,253 INFO Waiting for the PUB_PORT from Pupil Capture software.
+2022-03-23 14:51:13,300 DEBUG PUB_PORT: 1474
+2022-03-23 14:51:13,301 INFO Waiting for the SUB_PORT from Pupil Capture software.
+2022-03-23 14:51:13,313 DEBUG SUB_PORT: 1475
+2022-03-23 14:51:13,313 INFO Connection Successful.
+2022-03-23 14:51:13,947 DEBUG {'subject': 'start_plugin', 'target': 'world', 'name': 'HMD_Streaming_Source', 'args': {'topics': ('hmd_streaming.world',), 'hwm': 1}}
+2022-03-23 14:51:13,956 INFO Will publish to device:world
+2022-03-23 14:51:13,957 INFO Using default camera source:0
+2022-03-23 14:51:13,957 INFO Setting video capture parameters. Height:192, Width:192, FPS:90
+2022-03-23 14:51:13,957 INFO Starting the stream for device:world.
+2022-03-23 14:51:13,962 DEBUG {b'subject': b'start_plugin', b'target': b'world', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.world'], b'hwm': 1}}
+2022-03-23 14:51:13,963 DEBUG {b'subject': b'start_plugin', b'target': b'world', b'name': b'HMD_Streaming_Source', b'args': {b'topics': [b'hmd_streaming.world'], b'hwm': 1}}
+2022-03-23 14:51:15,531 INFO Camera changed capture parameters. Height:240, Width:320, FPS:30.0
+2022-03-23 14:52:56,005 INFO Exit due to keyboard interrupt
+2022-03-23 14:52:56,028 INFO Stopping the stream for device: world.
+2022-03-23 14:52:56,120 INFO Total Published frames: 2999, FPS:30.
+2022-03-23 15:02:06,004 ERROR Traceback (most recent call last):
+  File "/home/edouard/pupil_remote_v2/pupil-video-backend/video_backend.py", line 190, in _streamVideo
+    self.msg_streamer.send(payload.get())
+  File "/home/edouard/pupil_remote_v2/pupil-video-backend/zmq_tools.py", line 175, in send
+    self.socket.send(extra_frames[-1], copy=True)
+  File "/home/edouard/.local/lib/python3.9/site-packages/zmq/sugar/socket.py", line 547, in send
+    return super(Socket, self).send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 718, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 765, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 229, in zmq.backend.cython.socket._send_copy
+  File "zmq/utils/buffers.pxd", line 156, in zmq.utils.buffers.asbuffer_r
+  File "zmq/utils/buffers.pxd", line 128, in zmq.utils.buffers.asbuffer
+TypeError: None does not provide a buffer interface.
+
+2022-03-23 15:02:06,005 INFO Stopping the stream for device: eye0.
+2022-03-23 15:02:06,007 INFO Total Published frames: 22014, FPS:30.
+2022-03-23 15:02:44,749 DEBUG {b'subject': b'backend.change_mode', b'mode': 2, b'topic': b'notify.backend.change_mode'}
+2022-03-23 15:38:23,128 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 15:38:27,634 DEBUG {b'subject': b'eye_process.should_start.1', b'eye_id': 1, b'delay': 0, b'topic': b'notify.eye_process.should_start.1'}
+2022-03-23 15:38:27,803 DEBUG {b'subject': b'eye_process.started', b'eye_id': 1, b'topic': b'notify.eye_process.started'}
+2022-03-23 15:38:27,837 DEBUG {b'subject': b'pupil_detector.set_enabled', b'value': True, b'topic': b'notify.pupil_detector.set_enabled'}
+2022-03-23 15:38:27,837 DEBUG {b'subject': b'backend.change_mode', b'mode': 1, b'topic': b'notify.backend.change_mode'}
+2022-03-23 15:38:27,838 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 15:39:17,243 DEBUG {b'subject': b'backend.change_mode', b'mode': 2, b'topic': b'notify.backend.change_mode'}
+2022-03-23 15:40:17,674 DEBUG {b'subject': b'frame_publishing.started', b'format': b'jpeg', b'topic': b'notify.frame_publishing.started'}
+2022-03-23 15:40:25,900 DEBUG {b'subject': b'frame_publishing.stopped', b'topic': b'notify.frame_publishing.stopped'}
+2022-03-23 15:40:26,067 DEBUG {b'subject': b'world_process.stopped', b'topic': b'notify.world_process.stopped'}
+2022-03-23 15:40:26,331 DEBUG {b'subject': b'eye_process.should_stop.0', b'eye_id': 0, b'topic': b'notify.eye_process.should_stop.0'}
+2022-03-23 15:40:26,332 DEBUG {b'subject': b'eye_process.should_stop.1', b'eye_id': 1, b'topic': b'notify.eye_process.should_stop.1'}
+2022-03-23 15:40:26,364 DEBUG {b'subject': b'eye_process.stopped', b'eye_id': 0, b'topic': b'notify.eye_process.stopped'}
+2022-03-23 15:40:26,425 DEBUG {b'subject': b'eye_process.stopped', b'eye_id': 1, b'topic': b'notify.eye_process.stopped'}
+2022-03-23 16:03:05,312 INFO Exit due to keyboard interrupt
