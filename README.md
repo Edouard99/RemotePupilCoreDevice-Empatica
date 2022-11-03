@@ -22,7 +22,7 @@ The first part of the system is the <a href="https://pupil-labs.com/products/cor
 Our goal is to make the Pupil Core device wireless. In this regard I chose to wire the Pupil Core Device to a Raspberry Pi 4 alimented by a portable battery. The issue is that pupil tracking software uses GPU power to compute the tracking and the data, it is impossible to use the Raspberry to process the videos of the Pupil Core Device to track the pupil. Yet it is possible to redirect the 3 video streams to a computer with GPU using port forwarding with TCP protocol between the Raspberry and the computer. Once the stream is redirected, the <a href="https://github.com/Lifestohack/pupil-video-backend" target="_blank">pupil backend</a> (that I found on GitHub) provides a solution to redirect the stream to the Pupil Capture software that will compute the pupil tracking from the 3 redirected video streams. The Pupil Capture software data can be read in real-time using the <a href="https://docs.pupil-labs.com/developer/core/network-api/" target="_blank">network API</a>.
 
 <p align="center">
-  <img alt="System Illustration" title="System Illustration" src="./Media/pupil.jpg">
+  <img alt="Pupil Core Device" title="Pupil Core Device" src="./Media/pupil.jpg">
 </p>
 
 ### Empatica E4 Wireless
@@ -30,7 +30,7 @@ Our goal is to make the Pupil Core device wireless. In this regard I chose to wi
 The Empatica E4 is a data-collection wristband that records Blood Volume Pulse, 3-axis Acceleration, Electrodermal Activity, and Body Temperature. Empatica provides a solution to access the data of the wristband in real-time: <a href="https://developer.empatica.com/windows-streaming-server.html" target="_blank">the Empatica Streaming Server</a>. The wristband and the computer are connected using a BLE Dongle (thus a Bluetooth Low Energy protocol), the communication with the wristband can be done using the Empatica streaming server software, and it is then possible to collect the data of the device in real-time by subscribing to a data channel.
 
 <p align="center">
-  <img alt="System Illustration" title="System Illustration" src="./Media/empatica.jpg" width="250">
+  <img alt="Empatica E4" title="Empatica E4" src="./Media/empatica.jpg" width="250">
 </p>
 
 ### Synchronization
