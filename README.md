@@ -12,7 +12,7 @@ Yet I tried to quickly summarize the process and workflow and I added a small <a
 
 ## Introduction
 
-This project aims to create a data collection system using the <a href="https://pupil-labs.com/products/core/" target="_blank">Pupil Core Device</a> and the <a href="https://www.empatica.com/en-eu/research/e4/" target="_blank">Empatica E4</a>. This system can collect, process, synchronize data (of both devices), and store data in real-time with a wireless process. That means that Pupil Core device will not be wired to the computer (using a TCP protocol), and Empatica E4’s data will be collected in real-time using a Bluetooth Low Energy Protocol.
+This project aims at creating a data collection system using the <a href="https://pupil-labs.com/products/core/" target="_blank">Pupil Core Device</a> and the <a href="https://www.empatica.com/en-eu/research/e4/" target="_blank">Empatica E4</a>. The system can collect, process, synchronize data (of both devices), and store data in real-time with a wireless process. This means that Pupil Core device will not be wired to the computer (using a TCP protocol), and Empatica E4’s data will be collected in real-time using a Bluetooth Low Energy Protocol.
 
 ## How does it work?
 
